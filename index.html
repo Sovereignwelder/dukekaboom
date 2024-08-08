@@ -68,13 +68,13 @@
     <h1>Duke Kaboom News Read</h1>
         </div>
         <div class="links">
-<a href="bitcoin-donation-link">
-    <svg class="icon" version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2500 2500" width="24" height="24">
-        <title>Donate Bitcoin</title>
-        <path fill="currentColor" d="M1967.3,1130.6c-15.6,207.8-184.4,311.7-392.2,343.4l0,237.8l-146.7,0l0-231.1c-38.9,0-78.9,0-117.8,0l0,231.1l-146.7,0l0-237.8c-31.1,0-62.2,0-93.3,0l-192.2,0l27.8-168.9c0,0,108.9,0,106.7,0c60,0,71.1-43.3,75.6-72.2l0-288.9l0-366.7c-1.1-42.2-18.9-90-75.6-90c2.2,0-106.7,0-106.7,0l-38.9-143.3l181.1,0c33.3,0,66.7,0,98.9,0l0-234.4l146.7,0l0,231.1c40,0,80,0,117.8,0l0-231.1l146.7,0l0,234.4c166.7,12.2,300,60,354.4,181.1C1989.5,684,1978.4,947.3,1967.3,1130.6L1967.3,1130.6z M1649.5,1071.7c-51.1-71.1-164.4-80-238.9-85.6l0,341.1c74.4-3.3,190-14.4,238.9-84.4C1690.6,1191.7,1690.6,1127.3,1649.5,1071.7L1649.5,1071.7z M1649.5,667.3c-43.3-62.2-134.4-71.1-238.9-75.6l0,308.9c104.4-3.3,195.6-13.3,238.9-75.6C1686.2,777.3,1686.2,718.4,1649.5,667.3L1649.5,667.3z"/>
-    </svg>
-</a>
-        </div>
+<style> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } .btcpay-form option { color: #000; background: rgba(0,0,0,.1); } .btcpay-input-price { -moz-appearance: textfield; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; }.btcpay-input-price::-webkit-outer-spin-button, .btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } </style>
+<form method="POST" action="https://Nostr.tips/api/v1/invoices" class="btcpay-form btcpay-form--block">
+  <input type="hidden" name="storeId" value="91f15DVAMK1XkdwbzGsRdLFVr22a6EAS1bugKMLu7QRv" />
+  <input type="hidden" name="currency" value="USD" />
+<button type="submit" class="submit" name="submit" style="min-width:209px;min-height:57px;border-radius:4px;border-style:none;background-color:#0f3b21;cursor:pointer;" title="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Support with</span>
+<img src="https://Nostr.tips/img/paybutton/logo.svg" style="height:57px;display:inline-block;padding:5% 0 5% 5px;vertical-align:middle;">
+</button></form>
         <div class="player-container">
             <iframe src='https://widget.spreaker.com/player?show_id=6257729&theme=dark&playlist=show&playlist-continuous=true&chapters-image=true' width='100%' height='400px' frameborder='0'></iframe>
         </div>
